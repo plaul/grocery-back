@@ -63,8 +63,8 @@ public class SetupDevelopmentData implements ApplicationRunner {
 
   @Override
   public void run(ApplicationArguments args) {
-    //setUpDataForExamProject();
-    //setupUserWithRoleUsers();
+    setUpDataForExamProject();
+    setupUserWithRoleUsers();
   }
 
   /*****************************************************************************************
