@@ -14,8 +14,8 @@ public class CorsConfig {
     private static final String[] ALLOWED_ORIGINS = new String[] {
             //"*",
             "https://example.com/",
-            "https://grocery.dat3-kea.dk/",
-            "http://127.0.0.1:5500"
+            "https://grocery.dat3-kea.dk/"
+            //"http://127.0.0.1:5500"
     };
     @Bean
     public CorsConfigurationSource corsConfigurationSource() {
